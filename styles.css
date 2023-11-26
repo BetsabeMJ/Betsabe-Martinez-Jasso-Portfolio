@@ -10,6 +10,10 @@ body{
     font-family: 'Poppins', sans-serif;*/
     padding-inline: 15px;
 }
+
+
+
+
 /* ESTILOS DE LA BARRA DE NAVEGACIÓN NAV */
 .nav{
     background-color: rgb(178, 246, 246);
@@ -59,7 +63,6 @@ body{
 .container__skills{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 100%;
     gap: 15px;
     padding-block: 15px;
     
@@ -132,6 +135,23 @@ body{
 .footer{
     background-color: darkgrey;
 }
+/* sección del formlario */
+/*.form__container{
+    display: flex;
+    flex-direction: column;
+}*/
+input, textarea{
+    width: 100%;
+}
+.form__button{
+    width: 30%;
+}
+
+
+
+
+
+
 .footer__container--icons{
     display: flex;
 }
@@ -147,4 +167,5 @@ a{
 .last_line{
     display: block;
     text-align: center;
+    padding-bottom: 10px;
 }
