@@ -22,7 +22,7 @@
     <!-- EL HEADER CON LA BARRA DE NAVEGACIÓN -->
     <header>
         <nav class="nav">
-            <ul class="nav_contenedor_lista">
+            <ul class="nav__container--list">
                 <li class="list">
                     <a href="#home">HOLA</a>
                 </li>
@@ -222,15 +222,15 @@
                 <form action="#">
                     <div>
                         <label for="input_name">Nombre (s) *</label>
-                        <input type="text" placeholder="Tu nombre o nombres" name="nombre" id="input_nombre">
+                        <input type="text" placeholder="Tu nombre o nombres" name="nombre" id="input_name" required>
 
-                        <label for="input_last-name">Apellidos *</label>
-                        <input type="text" placeholder="Tus apellidos" name="apellido" id="input_apellido">
+                        <label for="input__last-name">Apellidos *</label>
+                        <input type="text" placeholder="Tus apellidos" name="apellido" id="input__last-name" required>
                     </div>
 
                     <div>
                         <label for="input_email">Email *</label>
-                        <input type="email" name="email" id="input_email">
+                        <input type="email" name="email" id="input_email" required>
                     </div>
 
                     <div>
@@ -250,7 +250,7 @@
 
 
     <!-- FOOTER CON LINKS DE NAVEGACIÓN SIN LA NAV -->
-    <footer>
+    <footer class="footer">
         <!-- lista de la barra de navegación -->
         <ul>
             <li>

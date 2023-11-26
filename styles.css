@@ -12,7 +12,7 @@
 .nav{
     background-color: rgb(178, 246, 246);
 }
-.nav_contenedor_lista{
+.nav__container--list{
     display: flex;
     justify-content: flex-end;
     background-color: antiquewhite;
@@ -24,12 +24,26 @@
 #skills{
     background-color: lightblue;
 }
-/*BORRAR TODO, EMPREZAR A HACER CON MOBILE*/
+
+.quote{
+    background-color: rgb(198, 145, 247);
+}
+
+#proyects{
+    background-color: rgb(255, 178, 178);
+}
+
+#contact{
+    background-color: burlywood;
+
+}
+
+.footer{
+    background-color: darkgrey;
+}
 
 
-
-
-.lista{
+.list{
    list-style: none;
     
 }
