@@ -224,26 +224,27 @@
             <div class="form__container">
                 <h2>Escríbeme</h2>
                 <form action="#">
-                    <div class="input__container--name">
+                    <div class="input__container">
                         <label for="input_name">Nombre (s) *</label>
                         <input type="text" placeholder="Tu nombre o nombres" name="nombre" id="input_name" required>
                     </div>
-                    <div>
+                    <div class="input__container">
                         <label for="input__last-name">Apellidos *</label>
                         <input type="text" placeholder="Tus apellidos" name="apellido" id="input__last-name" required>
                     </div>
                     
 
-                    <div>
+                    <div class="input__container">
                         <label for="input_email">Email *</label>
                         <input type="email" name="email" id="input_email" required>
                     </div>
 
-                    <div>
-                        <label for="input_textarea">Mensaje</label>
-                        <textarea name="area_texto" id="input_textarea" placeholder="Escriba un mensaje aquí" rows="8"></textarea>
+                    <div class="input__container">
+                        <label for="input_textarea">Mensaje *</label>
+                        <textarea name="area_texto" id="input_textarea" placeholder="Escriba un mensaje aquí" rows="8" required></textarea>
                     </div>
                     <input class="form__button" type="submit" value="Enviar">
+                    
                 </form>
             </div>
 

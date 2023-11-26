@@ -135,17 +135,28 @@ body{
 .footer{
     background-color: darkgrey;
 }
-/* sección del formlario */
-/*.form__container{
+/* contenedor del formlario */
+/* falta eparar las labels de los inpust */
+.form__container{
     display: flex;
     flex-direction: column;
-}*/
+    gap: 20px;
+    padding-bottom: 15px;
+}
 input, textarea{
     width: 100%;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+.input__container{
+    padding-bottom: 15px;
 }
 .form__button{
     width: 30%;
+    padding: 10px 10px;
 }
+
+
 
 
 
