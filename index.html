@@ -23,17 +23,17 @@
     <header>
         <nav class="nav">
             <ul class="nav_contenedor_lista">
-                <li class="lista">
-                    <a href="#hola">HOLA</a>
+                <li class="list">
+                    <a href="#home">HOLA</a>
                 </li>
-                <li class="lista">
-                    <a href="#conocimientos">CONOCIMIENTOS</a>
+                <li class="list">
+                    <a href="#skills">CONOCIMIENTOS</a>
                 </li>
-                <li class="lista">
-                    <a href="#proyectos">PROYECTOS</a>
+                <li class="list">
+                    <a href="#proyects">PROYECTOS</a>
                 </li>
-                <li class="lista">
-                    <a href="#contacto">CONTACTO</a>
+                <li class="list">
+                    <a href="#contact">CONTACTO</a>
                 </li>
             </ul>
         </nav>
@@ -45,12 +45,12 @@
     <!-- ESTE MAIN ES EL QUE ALBERGARÁ A LAS SECTIONS QUE SERÁN "HOLA", "CONOCIMIENTOS", "PROYECTOS" Y "CONTACTO" -->
     <main>
         <!-- SECTION 1 (HOLA) -->
-        <section id="hola">
+        <section id="home">
             <div>
                 <span>¡Hola! Soy</span>
                 <h1>Betsabe Martínez Jasso</h1>
                 <p>Comunicóloga y desarrolladora Web Frontend en proceso</p>
-                <a href="#proyectos">LO QUE HAGO</a>
+                <a href="#proyects">LO QUE HAGO</a>
             </div>
             <div>
                 <figure>
@@ -64,7 +64,7 @@
 
 
         <!-- SECTION 2 (CONOCIMIENTOS) COLOR GRIS -->
-        <section id="conocimientos">
+        <section id="skills">
             <div>
                 <h2>Mis conocimientos</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem magnam dolorum laboriosam voluptatem
@@ -99,7 +99,7 @@
         </section>
 
         <!-- SECTION DE CITA MORADO -->
-        <section>
+        <section class="quote">
             <img src="./imágenes/quote-right-solid.svg" alt="ilustración de comillas">
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque fugiat nesciunt repellat ea, sit facere,
                 repudiandae asperiores </p>
@@ -110,14 +110,14 @@
 
 
         <!-- SECTION 3 (PROYECTOS) -->
-        <section id="proyectos">
+        <section id="proyects">
             <h2>Mis proyectos</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, veniam?</p>
             <!-- CAJA QUE TIENE LAS CAJITAS DE PROYECTOS -->
             <div>
                 <!-- card portfolio -->
                 <div>
-                    <a href="#hola" target="_blank">
+                    <a href="#home" target="_blank">
                         <figure>
                             <img src="./imágenes/programmer.svg"
                                 alt="ilustración de mujer trabajando con dispositivos móviles">
@@ -127,7 +127,7 @@
                 </div>
                 <!-- card generador de memes -->
                 <div>
-                    <a href="#hola" target="_blank">
+                    <a href="#home" target="_blank">
                         <figure>
                             <img src="../nuevas imágenes/generador de memes.svg" alt="ilustración de mujer sentada sobre una foto con paisaje de montañas">
                             <figcaption>Generador de memes</figcaption>
@@ -136,7 +136,7 @@
                 </div>
                 <!-- card match 3 -->
                 <div>
-                    <a href="#hola" target="_blank">
+                    <a href="#home" target="_blank">
                         <figure>
                             <img src="../nuevas imágenes/match 3.svg" alt="ilustración de tres personas tomadas de la mano">
                             <figcaption>Match 3</figcaption>
@@ -145,7 +145,7 @@
                 </div>
                 <!-- card controlador de gastos -->
                 <div>
-                    <a href="#hola" target="_blank">
+                    <a href="#home" target="_blank">
                         <figure>
                             <img src="../nuevas imágenes/controlador de gastos.svg"
                                 alt="ilustración de hombre con tarjeta de crédito">
@@ -155,7 +155,7 @@
                 </div>
                 <!-- card administrador de reuniones -->
                 <div>
-                    <a href="#hola" target="_blank">
+                    <a href="#home" target="_blank">
                         <figure>
                             <img src="../nuevas imágenes/administrador de reuniones.svg"
                                 alt="ilustración de mujer con calendario digital">
@@ -165,7 +165,7 @@
                 </div>
                 <!-- card todo app -->
                 <div>
-                    <a href="#hola" target="_blank">
+                    <a href="#home" target="_blank">
                         <figure>
                             <img src="../nuevas imágenes/todo app.svg" alt="ilustración de hombre y celular">
                             <figcaption>Todo app</figcaption>
@@ -174,7 +174,7 @@
                 </div>
                 <!-- card Buscador de películas -->
                 <div>
-                    <a href="#hola" target="_blank">
+                    <a href="#home" target="_blank">
                         <figure>
                             <img src="../nuevas imágenes/buscador de películas.svg"
                                 alt="ilustración de mujeres sentadas con palomitas de maíz">
@@ -192,7 +192,7 @@
 
         <!-- SECTION 4 (CONTACTO) -->
         <!-- aquí van los formularios, ver la clase otra vez -->
-        <section id="contacto">
+        <section id="contact">
             <div>
                 <h2>Contáctame</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nostrum natus nulla aperiam. Illum,
@@ -218,13 +218,13 @@
             </div>
             <!-- contenedor del formulario -->
             <div>
-                <h2>Escríbime</h2>
+                <h2>Escríbeme</h2>
                 <form action="#">
                     <div>
-                        <label for="input_nombre">Nombre (s) *</label>
+                        <label for="input_name">Nombre (s) *</label>
                         <input type="text" placeholder="Tu nombre o nombres" name="nombre" id="input_nombre">
 
-                        <label for="input_apellido">Apellidos *</label>
+                        <label for="input_last-name">Apellidos *</label>
                         <input type="text" placeholder="Tus apellidos" name="apellido" id="input_apellido">
                     </div>
 
@@ -254,16 +254,16 @@
         <!-- lista de la barra de navegación -->
         <ul>
             <li>
-                <a href="#hola">HOLA</a>
+                <a href="#home">HOLA</a>
             </li>
             <li>
-                <a href="#conocimientos">CONOCIMIENTOS</a>
+                <a href="#skills">CONOCIMIENTOS</a>
             </li>
             <li>
-                <a href="#proyectos">PROYECTOS</a>
+                <a href="#proyects">PROYECTOS</a>
             </li>
             <li>
-                <a href="#contacto">CONTACTO</a>
+                <a href="#contact">CONTACTO</a>
             </li>
         </ul>
         <!-- lista de los íconos de redes, pero no sé de donde importarlas -->

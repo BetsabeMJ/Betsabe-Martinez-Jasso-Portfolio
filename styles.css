@@ -9,11 +9,21 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;*/
 }
+.nav{
+    background-color: rgb(178, 246, 246);
+}
 .nav_contenedor_lista{
     display: flex;
     justify-content: flex-end;
+    background-color: antiquewhite;
+}
+#home{
+    background-color: azure;
 }
 
+#skills{
+    background-color: lightblue;
+}
 /*BORRAR TODO, EMPREZAR A HACER CON MOBILE*/
 
 
