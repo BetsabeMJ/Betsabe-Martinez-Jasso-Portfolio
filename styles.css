@@ -9,6 +9,7 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;*/
 }
+/* ESTILOS DE LA BARRA DE NAVEGACIÓN NAV */
 .nav{
     background-color: rgb(178, 246, 246);
 }
@@ -17,27 +18,38 @@
     justify-content: flex-end;
     background-color: antiquewhite;
 }
+/* SECTION 1 (HOME) */
 #home{
     background-color: azure;
 }
 
+
+
+/* SECTION 2 (SKILLS) */
 #skills{
     background-color: lightblue;
 }
 
+
+/* SECTION CITA */
 .quote{
     background-color: rgb(198, 145, 247);
 }
 
+/* SECTION 3 (PROYECTS) */
 #proyects{
     background-color: rgb(255, 178, 178);
 }
 
+
+/* SECTION 4 (CONTACT) */
 #contact{
     background-color: burlywood;
 
 }
 
+
+/* FOOTER CON LINKS DE NAVEGACIÓN SIN LA NAV */
 .footer{
     background-color: darkgrey;
 }
