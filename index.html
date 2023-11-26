@@ -54,7 +54,8 @@
             </div>
             <div>
                 <figure>
-                    <img src="./imágenes/programmer2.svg" alt="Ilustración de web developer">
+                    <!-- CAMBIAR ESTA CLASE -->
+                    <img class="programmer2_img" src="./imágenes/programmer2.svg" alt="Ilustración de web developer">
                 </figure>
             </div>
 
@@ -71,38 +72,41 @@
                     quos quas architecto, fugit repudiandae.</p>
             </div>
             <!-- CAJA QUE TIENE LAS CAJITAS DE HTML, CSS, ETC -->
-            <div>
-                <i class="devicon-html5-plain colored"></i>
-                <span>HTML 5</span>
-            </div>
-            <div>
-                <i class="devicon-css3-plain colored"></i>
-                <span>CSS 3</span>
-            </div>
-            <div>
-                <i class="devicon-sass-original colored"></i>
-                <span>Sass</span>
-            </div>
-            <div>
-                <i class="devicon-javascript-plain colored"></i>
-                <span>JavaScript</span>
-            </div>
-            <div>
-                <i class="devicon-react-original colored"></i>
-                <span>React</span>
-            </div>
-            <div>
-                <i class="devicon-git-plain colored"></i>
-                <span>GIT</span>
+            <div class="container__skills">
+                <div class="container__skills--cards">
+                    <i class="devicon-html5-plain colored"></i>
+                    <span>HTML 5</span>
+                </div>
+                <div class="container__skills--cards">
+                    <i class="devicon-css3-plain colored"></i>
+                    <span>CSS 3</span>
+                </div>
+                <div class="container__skills--cards">
+                    <i class="devicon-sass-original colored"></i>
+                    <span>Sass</span>
+                </div>
+                <div class="container__skills--cards">
+                    <i class="devicon-javascript-plain colored"></i>
+                    <span>JavaScript</span>
+                </div>
+                <div class="container__skills--cards">
+                    <i class="devicon-react-original colored"></i>
+                    <span>React</span>
+                </div>
+                <div class="container__skills--cards">
+                    <i class="devicon-git-plain colored"></i>
+                    <span>GIT</span>
+                </div>
             </div>
 
         </section>
 
         <!-- SECTION CITA -->
         <section class="quote">
-            <img src="./imágenes/quote-right-solid.svg" alt="ilustración de comillas">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque fugiat nesciunt repellat ea, sit facere,
-                repudiandae asperiores </p>
+            <svg class="quote__svg" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#fb519a}</style><path d="M448 296c0 66.3-53.7 120-120 120h-8c-17.7 0-32-14.3-32-32s14.3-32 32-32h8c30.9 0 56-25.1 56-56v-8H320c-35.3 0-64-28.7-64-64V160c0-35.3 28.7-64 64-64h64c35.3 0 64 28.7 64 64v32 32 72zm-256 0c0 66.3-53.7 120-120 120H64c-17.7 0-32-14.3-32-32s14.3-32 32-32h8c30.9 0 56-25.1 56-56v-8H64c-35.3 0-64-28.7-64-64V160c0-35.3 28.7-64 64-64h64c35.3 0 64 28.7 64 64v32 32 72z"/></svg>
+            <!-- <i class="fa-solid fa-quote-right"></i>
+            <img src="./imágenes/quote-right-solid.svg" alt="ilustración de comillas"> -->
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque fugiat nesciunt repellat ea, sit facere, repudiandae asperiores </p>
             <h3>Someone</h3>
         </section>
 
@@ -118,8 +122,8 @@
                 <!-- card portfolio -->
                 <div>
                     <a href="#home" target="_blank">
-                        <figure>
-                            <img src="./imágenes/programmer.svg"
+                        <figure class="cards">
+                            <img class="cards__img" src="./imágenes/programmer2.svg"
                                 alt="ilustración de mujer trabajando con dispositivos móviles">
                             <figcaption>Portafolio</figcaption>
                         </figure>
@@ -128,8 +132,8 @@
                 <!-- card generador de memes -->
                 <div>
                     <a href="#home" target="_blank">
-                        <figure>
-                            <img src="../nuevas imágenes/generador de memes.svg" alt="ilustración de mujer sentada sobre una foto con paisaje de montañas">
+                        <figure class="cards">
+                            <img class="cards__img" src="./imágenes/generador de memes.svg" alt="ilustración de mujer sentada sobre una foto con paisaje de montañas">
                             <figcaption>Generador de memes</figcaption>
                         </figure>
                     </a>
@@ -137,8 +141,8 @@
                 <!-- card match 3 -->
                 <div>
                     <a href="#home" target="_blank">
-                        <figure>
-                            <img src="../nuevas imágenes/match 3.svg" alt="ilustración de tres personas tomadas de la mano">
+                        <figure class="cards">
+                            <img class="cards__img" src="./imágenes/match 3.svg" alt="ilustración de tres personas tomadas de la mano">
                             <figcaption>Match 3</figcaption>
                         </figure>
                     </a>
@@ -146,8 +150,8 @@
                 <!-- card controlador de gastos -->
                 <div>
                     <a href="#home" target="_blank">
-                        <figure>
-                            <img src="../nuevas imágenes/controlador de gastos.svg"
+                        <figure class="cards">
+                            <img class="cards__img" src="./imágenes/controlador de gastos.svg"
                                 alt="ilustración de hombre con tarjeta de crédito">
                             <figcaption>Controlador de gastos</figcaption>
                         </figure>
@@ -156,8 +160,8 @@
                 <!-- card administrador de reuniones -->
                 <div>
                     <a href="#home" target="_blank">
-                        <figure>
-                            <img src="../nuevas imágenes/administrador de reuniones.svg"
+                        <figure class="cards">
+                            <img class="cards__img" src="./imágenes/administrador de reuniones.svg"
                                 alt="ilustración de mujer con calendario digital">
                             <figcaption>Administrador de reuniones</figcaption>
                         </figure>
@@ -166,8 +170,8 @@
                 <!-- card todo app -->
                 <div>
                     <a href="#home" target="_blank">
-                        <figure>
-                            <img src="../nuevas imágenes/todo app.svg" alt="ilustración de hombre y celular">
+                        <figure class="cards">
+                            <img class="cards__img" src="./imágenes/todo app.svg" alt="ilustración de hombre y celular">
                             <figcaption>Todo app</figcaption>
                         </figure>
                     </a>
@@ -175,8 +179,8 @@
                 <!-- card Buscador de películas -->
                 <div>
                     <a href="#home" target="_blank">
-                        <figure>
-                            <img src="../nuevas imágenes/buscador de películas.svg"
+                        <figure class="cards">
+                            <img class="cards__img" src="./imágenes/buscador de películas.svg"
                                 alt="ilustración de mujeres sentadas con palomitas de maíz">
                             <figcaption>Buscador de películas</figcaption>
                         </figure>
@@ -198,17 +202,17 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nostrum natus nulla aperiam. Illum,
                     sit?</p>
                 <ul>
-                    <li>
+                    <li class="list">
                         <a href="https://github.com/BetsabeMJ">
                             <img src="" alt="ícono de GitHub">
                         </a>
                     </li>
-                    <li>
+                    <li class="list">
                         <a href="">
                             <img src="#" alt="ícono de LinkedIn">
                         </a>
                     </li>
-                    <li>
+                    <li class="list">
                         <a href="mailto:betsabe.martinez.jasso@gmail.com">
                             <img src="" alt="ícono de email">
                         </a>
@@ -253,38 +257,38 @@
     <footer class="footer">
         <!-- lista de la barra de navegación -->
         <ul>
-            <li>
+            <li class="list">
                 <a href="#home">HOLA</a>
             </li>
-            <li>
+            <li class="list">
                 <a href="#skills">CONOCIMIENTOS</a>
             </li>
-            <li>
+            <li class="list">
                 <a href="#proyects">PROYECTOS</a>
             </li>
-            <li>
+            <li class="list">
                 <a href="#contact">CONTACTO</a>
             </li>
         </ul>
         <!-- lista de los íconos de redes, pero no sé de donde importarlas -->
-        <ul>
-            <li>
-                <a href="https://github.com/BetsabeMJ">
-                    <img src="" alt="ícono de GitHub">
+        <ul class="footer__container--icons">
+            <li class="list">
+                <a href="">   
+                <img src="" alt="ícono de GitHub">
                 </a>
             </li>
-            <li>
+            <li class="list">
                 <a href="">
                     <img src="#" alt="ícono de LinkedIn">
                 </a>
             </li>
-            <li>
+            <li class="list">
                 <a href="mailto:betsabe.martinez.jasso@gmail.com">
                     <img src="" alt="ícono de email">
                 </a>
             </li>
         </ul>
-        <p>Hecho con 💜 por Betsabe</p>
+        <p class="last_line">Hecho con 💜 por Betsabe</p>
     </footer>
 
 
