@@ -58,9 +58,18 @@ span, figcaption{
 }
 .programmer2_img{
     width: 90%;
+    padding-block: 20px;
 }
-
-
+/* FALTA BAJAR ESTE SPAN DE LA PARTE DE ARRIBA */
+.home__greeting{
+    margin-top: 30px;
+}
+h1{
+    padding-top: 15px;
+}
+.home_text{
+    padding-block: 30px;
+}
 
 
 
@@ -76,7 +85,21 @@ span, figcaption{
 #skills{
     background-color: lightblue;
     text-align: center;
+    padding-block: 30px;
 }
+
+.skills__tittle{
+    margin-top: 25px;
+    padding-bottom: 20px;
+}
+.skills__text{
+    padding-bottom: 30px;
+}
+
+
+
+
+
 /*.skills__container--first{
     
 }
@@ -111,9 +134,16 @@ span, figcaption{
 .quote{
     background-color: rgb(198, 145, 247);
     text-align: center;
+    padding-block: 50px;
 }
 .quote__svg{
     font-size: 100px;
+}
+.quote__text{
+    padding-block: 30px;
+}
+h3{
+    padding-block: 30px;
 }
 
 
@@ -126,8 +156,15 @@ span, figcaption{
 #projects{
     background-color: rgb(255, 178, 178);
     text-align: center;
+    padding-block: 30px;
 }
-
+.projects__tittle{
+    margin-block: 25px;
+}
+.projects__text{
+    padding-block: 10px;
+    margin-bottom: 20px;
+}
 .projects__container--cards{
     display: flex;
     flex-direction: column;
@@ -140,11 +177,17 @@ span, figcaption{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
     gap: 10px;
     border: 1px black solid;
+    border-radius: 7px;
 }
 .cards__img{
     width: 70%;
+    padding: 10px;
+}
+figcaption{
+    padding: 30px 0px;
 }
 
 
@@ -154,9 +197,15 @@ span, figcaption{
 /* SECTION 4 (CONTACT) */
 #contact{
     background-color: burlywood;
-
+    padding-block: 30px;
 }
-
+.contact__tittle{
+    margin-top: 25px;
+    padding-bottom: 15px;
+}
+.contact__text{
+    padding-bottom: 40px;
+}
 
 /* FOOTER CON LINKS DE NAVEGACIÓN SIN LA NAV */
 .footer{
@@ -169,6 +218,9 @@ span, figcaption{
     flex-direction: column;
     gap: 20px;
     padding-bottom: 15px;
+}
+.form__tittle{
+    margin-top: 30px;
 }
 input, textarea{
     width: 100%;
