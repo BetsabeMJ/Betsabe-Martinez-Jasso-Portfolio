@@ -8,7 +8,7 @@ body{
     font-family: 'Poppins', sans-serif;  para títulos y subtítulos*/
     font-family: 'Montserrat', sans-serif;
     font-size: 1.06rem;
-    padding-inline: 15px;
+    
 }
 /* ESTILOS GENERALES */
 h1, h2, h3, h4, span{
@@ -26,10 +26,7 @@ span, figcaption{
     font-size: 1rem;
     font-weight: 600;
 }
-.home__greeting{
-    font-size: 1.3rem;
-    font-weight: 700;
-}
+
 
 
 /* ESTILOS DE LA BARRA DE NAVEGACIÓN NAV */
@@ -54,9 +51,15 @@ span, figcaption{
     flex-direction: column;
     gap: 10px;
     text-align: center;
-    
+    padding-inline: 15px;
 }
-.programmer2_img{
+
+.home__greeting{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.home_img{
     width: 90%;
     padding-block: 20px;
 }
@@ -85,7 +88,8 @@ h1{
 #skills{
     background-color: lightblue;
     text-align: center;
-    padding-block: 30px;
+    padding: 30px 15px;
+    
 }
 
 .skills__tittle{
@@ -95,9 +99,6 @@ h1{
 .skills__text{
     padding-bottom: 30px;
 }
-
-
-
 
 
 /*.skills__container--first{
@@ -134,7 +135,7 @@ h1{
 .quote{
     background-color: rgb(198, 145, 247);
     text-align: center;
-    padding-block: 50px;
+    padding: 50px 15px;
 }
 .quote__svg{
     font-size: 100px;
@@ -156,7 +157,8 @@ h3{
 #projects{
     background-color: rgb(255, 178, 178);
     text-align: center;
-    padding-block: 30px;
+    padding: 30px 15px;
+
 }
 .projects__tittle{
     margin-block: 25px;
@@ -197,7 +199,8 @@ figcaption{
 /* SECTION 4 (CONTACT) */
 #contact{
     background-color: burlywood;
-    padding-block: 30px;
+    padding: 30px 15px;
+    
 }
 .contact__tittle{
     margin-top: 25px;
@@ -207,9 +210,15 @@ figcaption{
     padding-bottom: 40px;
 }
 
+
+
+
+
 /* FOOTER CON LINKS DE NAVEGACIÓN SIN LA NAV */
 .footer{
     background-color: darkgrey;
+    padding: 30px 15px;
+
 }
 /* contenedor del formlario */
 /* falta eparar las labels de los inpust */
@@ -237,13 +246,12 @@ input, textarea{
 
 
 
-
-
-
-
+/* contenedor de íconos */
 
 .footer__container--icons{
     display: flex;
+    /*justify-content: center;
+    align-items: center;*/
 }
 
 .list{
