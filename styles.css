@@ -26,10 +26,18 @@ span, figcaption{
     font-size: 1rem;
     font-weight: 600;
 }
+.list{
+   list-style: none;
+}
+   
+a{
+    text-decoration: none;
+    color: black;
+}
 
 
 
-/* ESTILOS DE LA BARRA DE NAVEGACIÓN NAV */
+/*  BARRA DE NAVEGACIÓN NAV */
 .nav{
     background-color: rgb(178, 246, 246);
 }
@@ -131,14 +139,15 @@ h1{
 }
 
 
-/* SECTION CITA */
+/* SECTION CITA 3*/
 .quote{
     background-color: rgb(198, 145, 247);
     text-align: center;
     padding: 50px 15px;
 }
-.quote__svg{
-    font-size: 100px;
+.fa-quote-right{
+    font-size: 120px;
+    color: blueviolet;
 }
 .quote__text{
     padding-block: 30px;
@@ -153,7 +162,7 @@ h3{
 
 
 
-/* SECTION 3 (PROYECTS) */
+/* SECTION 4 (PROYECTS) */
 #projects{
     background-color: rgb(255, 178, 178);
     text-align: center;
@@ -196,7 +205,7 @@ figcaption{
 
 
 
-/* SECTION 4 (CONTACT) */
+/* SECTION 5 (CONTACT) */
 #contact{
     background-color: burlywood;
     padding: 30px 15px;
@@ -210,18 +219,11 @@ figcaption{
     padding-bottom: 40px;
 }
 
+/* Íconos en área de contáctame */
 
 
-
-
-/* FOOTER CON LINKS DE NAVEGACIÓN SIN LA NAV */
-.footer{
-    background-color: darkgrey;
-    padding: 30px 15px;
-
-}
 /* contenedor del formlario */
-/* falta eparar las labels de los inpust */
+/* falta separar las labels de los inpust */
 .form__container{
     display: flex;
     flex-direction: column;
@@ -246,7 +248,24 @@ input, textarea{
 
 
 
-/* contenedor de íconos */
+
+
+
+
+
+
+/* SECTION FOOTER 6 */
+/* FOOTER CON LINKS DE ÍCONOS SIN LA NAV */
+.footer{
+    background-color: darkgrey;
+    padding: 30px 15px;
+
+}
+
+
+
+
+/* lista de los íconos de redes */
 
 .footer__container--icons{
     display: flex;
@@ -254,15 +273,7 @@ input, textarea{
     align-items: center;*/
 }
 
-.list{
-   list-style: none;
-}
-   
-a{
-    text-decoration: none;
-    color: black;
-}
-.last_line{
+.last_text{
     display: block;
     text-align: center;
     padding-bottom: 10px;
