@@ -47,7 +47,7 @@
         <!-- SECTION 1 (HOME) -->
         <section id="home">
             <div>
-                <span>¡Hola! Soy</span>
+                <span class="home__greeting">¡Hola! Soy</span>
                 <h1>Betsabe Martínez Jasso</h1>
                 <p>Comunicóloga y desarrolladora web Frontend en proceso, entusiasta por los detalles</p>
                 <a href="#projects">LO QUE HAGO</a>
@@ -66,7 +66,7 @@
 
         <!-- SECTION 2 (SKILLS) -->
         <section id="skills">
-            <div>
+            <div class="skills__container--first">
                 <h2>Mis conocimientos</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem magnam dolorum laboriosam voluptatem
                     quos quas architecto, fugit repudiandae.</p>
@@ -226,22 +226,41 @@
                 <form action="#">
                     <div class="input__container">
                         <label for="input_name">Nombre (s) *</label>
-                        <input type="text" placeholder="Tu nombre o nombres" name="nombre" id="input_name" required>
+                        <input 
+                        type="text" 
+                        placeholder="Tu nombre o nombres" 
+                        name="nombre" 
+                        id="input_name" 
+                        required>
                     </div>
                     <div class="input__container">
                         <label for="input__last-name">Apellidos *</label>
-                        <input type="text" placeholder="Tus apellidos" name="apellido" id="input__last-name" required>
+                        <input 
+                        type="text" 
+                        placeholder="Tus apellidos" 
+                        name="apellido" 
+                        id="input__last-name" 
+                        required>
                     </div>
                     
 
                     <div class="input__container">
                         <label for="input_email">Email *</label>
-                        <input type="email" name="email" id="input_email" required>
+                        <input 
+                        type="email" 
+                        name="email" 
+                        id="input_email" 
+                        required>
                     </div>
 
                     <div class="input__container">
                         <label for="input_textarea">Mensaje *</label>
-                        <textarea name="area_texto" id="input_textarea" placeholder="Escriba un mensaje aquí" rows="8" required></textarea>
+                        <textarea 
+                        name="area_texto" 
+                        id="input_textarea" 
+                        placeholder="Escriba un mensaje aquí" 
+                        rows="8" 
+                        required></textarea>
                     </div>
                     <input class="form__button" type="submit" value="Enviar">
                     

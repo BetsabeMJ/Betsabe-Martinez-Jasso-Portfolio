@@ -5,13 +5,31 @@
 }
 body{
     /*height: 100vh;
+    font-family: 'Poppins', sans-serif;  para títulos y subtítulos*/
     font-family: 'Montserrat', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;*/
+    font-size: 1.06rem;
     padding-inline: 15px;
 }
-
-
+/* ESTILOS GENERALES */
+h1, h2, h3, h4, span{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+h2{
+    font-size: 1.8rem;
+    font-weight: 800; 
+}
+span, figcaption{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.home__greeting{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
 
 
 /* ESTILOS DE LA BARRA DE NAVEGACIÓN NAV */
@@ -59,13 +77,17 @@ body{
     background-color: lightblue;
     text-align: center;
 }
+/*.skills__container--first{
+    
+}
+/* caja que tiene las cajitas de html, css, etc */
 /* para hacer el grid vi la clase de formularios min 2:44:05 */
 .container__skills{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
-    padding-block: 15px;
-    
+    margin: 0px 30px;
+    padding-block: 30px; 
     /*display: flex;
     flex-direction: column;
     flex-wrap: wrap;*/
@@ -74,6 +96,11 @@ body{
     border: 1px black solid;
     display: flex;
     flex-direction: column;
+    padding: 30px 20px;
+    border-radius: 7px;
+}
+.container__skills--cards span{
+    padding-top: 20px;
 }
 .devicon-html5-plain, .devicon-css3-plain, .devicon-sass-original, .devicon-javascript-plain, .devicon-react-original, .devicon-git-plain{
     font-size: 50px;
