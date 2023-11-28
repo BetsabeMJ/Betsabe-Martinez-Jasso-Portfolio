@@ -57,7 +57,7 @@ a{
     background-color: azure;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 30px;
     text-align: center;
     padding-inline: 15px;
 }
@@ -74,14 +74,21 @@ a{
 /* FALTA BAJAR ESTE SPAN DE LA PARTE DE ARRIBA */
 .home__greeting{
     margin-top: 30px;
+    padding-block: 20px;
 }
 h1{
-    padding-top: 15px;
+    padding-block: 20px;
 }
 .home_text{
-    padding-block: 30px;
+    padding-block: 20px;
 }
-
+.home_button{
+    border: 1px black solid;
+    border-radius: 50px;
+    padding: 15px 30px;
+    font-weight: bold;
+    line-height: 5rem;
+}
 
 
 
