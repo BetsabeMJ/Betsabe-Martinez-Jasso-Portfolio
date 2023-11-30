@@ -137,7 +137,8 @@ h1{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
-    margin: 0px 30px;
+    margin: 0px 30px; 
+    /*margin: auto;*/
     padding-block: 30px; 
     /*display: flex;
     flex-direction: column;
@@ -255,7 +256,19 @@ figcaption{
     display: flex;
     align-items: center;
     padding-left: 10px;
+    border-color: transparent;
 }
+
+.contact__icon:hover a, .contact__icon:hover p{
+    color: #cc9ea4;
+
+}
+.contact__icon:hover .fa-brands, .contact__icon:hover .fa-linkedin-in, .contact__icon:hover .fa-envelope{
+    color: #cc9ea4;
+    background-color: #35356e;
+    padding: 5px;
+}
+
 .contact__icon i{
     padding: 5px;
     margin-right: 10px;
@@ -263,6 +276,10 @@ figcaption{
     font-size: 1.2rem;
     color: #35356e;
     background-color: transparent;
+}
+
+.contact__icon p{
+    color: #35356e;
 }
 
 /* contenedor del formlario */
@@ -282,13 +299,49 @@ input, textarea{
     width: 100%;
     padding: 10px 10px;
     border-radius: 20px;
+    border-color: transparent;
+    background-color: #fbe9eb;
 }
+
+input:focus, textarea:focus{
+    box-shadow: 0px 0px 10px 0px rgba(53,53,110,1);
+    outline: 0;
+}
+
+/*input:invalid:not(:placeholder-shown):focus,
+textarea:invalid:not(:placeholder-shown):focus{
+    box-shadow: 0px 0px 5px 0px rgba(255,38,38,1);
+}
+
+input:valid, textarea:valid{
+    box-shadow: 0px 0px 5px 0px rgba(137,217,140,1);
+    outline: 0;
+}
+
+input:invalid, textarea:invalid{
+    box-shadow: 0px 0px 5px 0px rgba(255,38,38,1);
+    outline: 0;
+}
+
+.fa-regular{
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    transform: translate(50%);
+}*/
+
 .input__container{
     padding-bottom: 15px;
 }
 .form__button{
     width: 30%;
     padding: 10px 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #cc9ea4;
+    background-color: #35356e;
 }
 
 
@@ -328,6 +381,21 @@ input, textarea{
     background-color: #cc9ea4;
     
 }
+
+.footer__icon:hover a{
+    color: #cc9ea4;
+
+}
+.footer__icon:hover .fa-brands, .footer__icon:hover .fa-linkedin-in, .footer__icon:hover .fa-envelope{
+    color: #cc9ea4;
+    background-color: #35356e;
+}
+
+
+
+
+
+
 
 .last_text{
     display: block;
