@@ -114,6 +114,9 @@
 
         <!-- SECTION 4 (PROYECTS) -->
         <section id="projects">
+            <div class="projects__container">
+                
+            </div>
             <h2 class="projects__tittle">Mis proyectos</h2>
             <p class="projects__text">Te invito a conocer algunos de los proyectos en los que he participado y otros más que yo misma he creado.</p>
             <!-- CAJA QUE TIENE LAS CAJITAS DE PROYECTOS -->
@@ -196,88 +199,91 @@
         <!-- SECTION 5 (CONTACT) -->
         <!-- Íconos en área de contáctame -->
         <section id="contact">
-            <div>
-                <h2 class="contact__tittle">Contáctame</h2>
-                <p class="contact__text">Si te interesa colaborar mutuamente o charlar sobre propuestas laborales no dudes en ponerte en contacto conmigo. Me puedes encontrar en:</p>
-                <ul>
-                    <li class="list">
-                        <a class="contact__icon" tabindex="15" href="https://github.com/BetsabeMJ">
-                            <i class="fa-brands fa-github"></i>
-                            <p>BetsabeMJ</p>
-                        </a>
-                    </li>
-                    <li class="list">
-                        <a class="contact__icon" tabindex="16" href="https://www.linkedin.com/in/betsabe-martínez-jasso">
-                            <i class="fa-brands fa-linkedin-in"></i>
-                            <p>Betsabe Martínez Jasso</p>
-                        </a>
-                    </li>
-                    <li class="list">
-                        <a class="contact__icon" tabindex="17" href="mailto:betsabe.martinez.jasso@gmail.com">
-                            <i class="fa-solid fa-envelope"></i>
-                            <p class="contact__email">betsabe.martinez.jasso@gmail.com.mx</p>
-                        </a>
-                    </li>
-                </ul>
+            <div class="contact__container--first">
 
-            </div>
-            <!-- contenedor del formulario -->
-            <div class="form__container">
-                <h2 class="form__tittle">Escríbeme</h2>
-                <form action="#">
-                    <div class="input__container">
-                        <label for="input_name">Nombre (s) *</label>
-                        <input 
-                        type="text" 
-                        placeholder="Tu nombre o nombres" 
-                        name="nombre" 
-                        id="input_name"
-                        tabindex="18" 
-                        required>
-                        <!-- <i class="fa-regular fa-circle-check"></i>
-                        <i class="fa-regular fa-circle-xmark"></i> -->
-                    </div>
-                    <div class="input__container">
-                        <label for="input__last-name">Apellidos *</label>
-                        <input 
-                        type="text" 
-                        placeholder="Tus apellidos" 
-                        name="apellido" 
-                        id="input__last-name"
-                        tabindex="19"
-                        required>
-                        <!-- <i class="fa-regular fa-circle-check"></i>
-                        <i class="fa-regular fa-circle-xmark"></i> -->
-                    </div>
-                    
-
-                    <div class="input__container">
-                        <label for="input_email">Email *</label>
-                        <input 
-                        type="email" 
-                        name="email" 
-                        id="input_email"
-                        tabindex="20"
-                        required>
-                        <!-- <i class="fa-regular fa-circle-check"></i>
-                        <i class="fa-regular fa-circle-xmark"></i> -->
-                    </div>
-
-                    <div class="input__container">
-                        <label for="input_textarea">Mensaje *</label>
-                        <textarea 
-                        name="area_texto" 
-                        id="input_textarea" 
-                        placeholder="Escriba un mensaje aquí" 
-                        rows="8" 
-                        tabindex="21"
-                        required></textarea>
-                        <!-- <i class="fa-regular fa-circle-check"></i>
-                        <i class="fa-regular fa-circle-xmark"></i> -->
-                    </div>
-                    <input class="form__button" tabindex="22" type="submit" value="Enviar">
-                    
-                </form>
+                <div class="contact__container">
+                    <h2 class="contact__tittle">Contáctame</h2>
+                    <p class="contact__text">Si te interesa colaborar mutuamente o charlar sobre propuestas laborales no dudes en ponerte en contacto conmigo. Me puedes encontrar en:</p>
+                    <ul>
+                        <li class="list__container">
+                            <a class="contact__icon" tabindex="15" href="https://github.com/BetsabeMJ">
+                                <i class="fa-brands fa-github"></i>
+                                <p>BetsabeMJ</p>
+                            </a>
+                        </li>
+                        <li class="list__container">
+                            <a class="contact__icon" tabindex="16" href="https://www.linkedin.com/in/betsabe-martínez-jasso">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                                <p>Betsabe Martínez Jasso</p>
+                            </a>
+                        </li>
+                        <li class="list__container">
+                            <a class="contact__icon" tabindex="17" href="mailto:betsabe.martinez.jasso@gmail.com">
+                                <i class="fa-solid fa-envelope"></i>
+                                <p class="contact__email">betsabe.martinez.jasso@gmail.com.mx</p>
+                            </a>
+                        </li>
+                    </ul>
+    
+                </div>
+                <!-- contenedor del formulario -->
+                <div class="form__container">
+                    <h2 class="form__tittle">Escríbeme</h2>
+                    <form action="#">
+                        <div class="input__container">
+                            <label for="input_name">Nombre (s) *</label>
+                            <input 
+                            type="text" 
+                            placeholder="Tu nombre o nombres" 
+                            name="nombre" 
+                            id="input_name"
+                            tabindex="18" 
+                            required>
+                            <!-- <i class="fa-regular fa-circle-check"></i>
+                            <i class="fa-regular fa-circle-xmark"></i> -->
+                        </div>
+                        <div class="input__container">
+                            <label for="input__last-name">Apellidos *</label>
+                            <input 
+                            type="text" 
+                            placeholder="Tus apellidos" 
+                            name="apellido" 
+                            id="input__last-name"
+                            tabindex="19"
+                            required>
+                            <!-- <i class="fa-regular fa-circle-check"></i>
+                            <i class="fa-regular fa-circle-xmark"></i> -->
+                        </div>
+                        
+    
+                        <div class="input__container">
+                            <label for="input_email">Email *</label>
+                            <input 
+                            type="email" 
+                            name="email" 
+                            id="input_email"
+                            tabindex="20"
+                            required>
+                            <!-- <i class="fa-regular fa-circle-check"></i>
+                            <i class="fa-regular fa-circle-xmark"></i> -->
+                        </div>
+    
+                        <div class="input__container">
+                            <label for="input_textarea">Mensaje *</label>
+                            <textarea 
+                            name="area_texto" 
+                            id="input_textarea" 
+                            placeholder="Escriba un mensaje aquí" 
+                            rows="8" 
+                            tabindex="21"
+                            required></textarea>
+                            <!-- <i class="fa-regular fa-circle-check"></i>
+                            <i class="fa-regular fa-circle-xmark"></i> -->
+                        </div>
+                        <input class="form__button" tabindex="22" type="submit" value="Enviar">
+                        
+                    </form>
+                </div>
             </div>
 
         </section>
