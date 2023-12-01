@@ -28,7 +28,6 @@ span, figcaption{
 .list{
    list-style: none;
 }
-   
 a{
     text-decoration: none;
     color: black;
@@ -57,15 +56,16 @@ a{
 
 
 
+
 /* SECTION 1 (HOME) */
 /* bacground de waves de https://www.softr.io/tools/svg-wave-generator */
 #home{
     background-color: azure;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 10px;
     text-align: center;
-    padding-inline: 12px;
+    padding: 20px 12px;
     background-image: url(./imágenes/background\ waves.svg);
     background-repeat: no-repeat;
     background-position: bottom;
@@ -80,6 +80,8 @@ a{
 .home_img{
     width: 90%;
     padding-top: 40px;
+    position: relative;
+    top: 20px;
 }
 
 .home__greeting{
@@ -273,7 +275,7 @@ figcaption{
 }
 
 .contact__email{
-    font-size: 1rem;
+    font-size: .93rem;
 }
 
 .contact__icon:hover a, .contact__icon:hover p{
@@ -323,7 +325,47 @@ input:focus, textarea:focus{
     box-shadow: 0px 0px 10px 0px rgba(53,53,110,1);
     outline: 0;
 }
+/* ----------------------------------------------- */
+/* íconos valid / invalid */
+/* .fa-circle-check{
+    position: relative;
+    left: 315px;
+    bottom: 30px;
+}
+input:valid, textarea:valid{
+    border:1px #88c459 solid;
+}
 
+input:not(:placeholder-shown),
+textarea:not(:placeholder-shown) {
+    border:1px #88c459 solid;
+}
+/* .fa-circle-check-valid {
+    color: #88c459;
+} */
+
+/* .fa-circle-xmark{
+    position: relative;
+    left: 294px;
+    bottom: 30px;
+}
+input:invalid, textarea:invalid{
+    border:1px #f5414f solid;
+}
+input:not(:placeholder-shown),
+textarea:not(:placeholder-shown) {
+    border:1px #f5414f solid;
+}
+/* .fa-circle-xmark-invalid{
+    color: #f5414f;
+} */
+/* .fa-regular {
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+} */
+/* ---------------------------------------------------------------------- */
 /*input:invalid:not(:placeholder-shown):focus,
 textarea:invalid:not(:placeholder-shown):focus{
     box-shadow: 0px 0px 5px 0px rgba(255,38,38,1);
