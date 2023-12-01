@@ -359,7 +359,7 @@ figcaption{
     .contact__container--first{
         display: flex;
         width: 90%;
-        height: 60%;
+        height: 90%;
         border: 1px #35356e solid;
         border-radius: 20px;
         background-color: white;
