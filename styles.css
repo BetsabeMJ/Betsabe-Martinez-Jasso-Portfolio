@@ -46,6 +46,11 @@ a{
     justify-content: flex-end;
     background-color: antiquewhite;
 }
+@media (max-width:600px){
+    .nav{
+        display: none;
+    }
+}
 
 
 
@@ -368,10 +373,13 @@ input:invalid, textarea:invalid{
 .footer{
     background-color: #35356e;
     padding: 30px 25px;
-
 }
 
-
+@media (max-width:600px){
+    .footer__nav{
+        display: none;
+    }
+}
 
 
 /* lista de los íconos de redes */
