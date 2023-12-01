@@ -648,6 +648,15 @@ input:invalid, textarea:invalid{
     background-color: #35356e;
     padding: 30px 12px;
 }
+.footer__nav{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-block: 30px;
+}
+.nav__text{
+    color: #cc9ea4;
+}
 
 @media (max-width:700px){
     .footer__nav{
