@@ -350,7 +350,7 @@ figcaption{
 @media (min-width: 970px){
     #contact{
         height: calc(100vh - 400px);
-        padding-top: 260px;
+        padding-top: 80px;
         display: flex;
         justify-content: center;
     }
@@ -358,7 +358,7 @@ figcaption{
 @media (min-width: 970px){
     .contact__container--first{
         display: flex;
-        width: 90%;
+        width:90%;
         height: 90%;
         border: 1px #35356e solid;
         border-radius: 20px;
