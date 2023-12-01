@@ -179,13 +179,18 @@ h1{
 
 
 
-
 /* SECTION 2 (SKILLS) */
 #skills{
-    background-color: lightblue;
+    background-color: white;
     text-align: center;
     padding: 80px 12px 50px;
     
+}
+@media (min-width: 970px){
+    #skills{
+        height: calc(100vh - 60px);
+        padding-block: 150px;
+    }
 }
 
 .skills__tittle{
@@ -193,11 +198,20 @@ h1{
     padding-bottom: 20px;
     color: #35356e;
 }
+@media (min-width: 970px){
+    .skills__tittle{
+        font-size: 2.3rem;
+    }
+}
 .skills__text{
     padding-bottom: 30px;
     color: #35356e;
 }
-
+@media (min-width: 970px){
+    .skills__text{
+        font-size: 1.3rem;
+    }
+}
 
 
 /*.skills__container--first{
@@ -216,6 +230,15 @@ h1{
     flex-direction: column;
     flex-wrap: wrap;*/
 }
+@media (min-width: 970px){
+    .container__skills{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        margin: 0px 200px;
+    }
+}
+
 .container__skills--cards{
     border: 1px #67254e solid;
     display: flex;
@@ -223,15 +246,31 @@ h1{
     padding: 30px 20px;
     border-radius: 7px;
 }
+@media (min-width: 970px){
+    .container__skills--cards{
+        width: 250px;
+        height: 250px;
+        padding: 60px 20px;
+    }
+}
 .container__skills--cards span{
     padding-top: 20px;
     color: #67254e;
 }
-.devicon-html5-plain, .devicon-css3-plain, .devicon-sass-original, .devicon-javascript-plain, .devicon-react-original, .devicon-git-plain{
-    font-size: 50px;
+@media (min-width: 970px){
+    span{
+        font-size: 1.3rem;
+    }
 }
-/* FALTA ESTE HOVER */
-.container__skills:hover i{
+.devicon-html5-plain, .devicon-css3-plain, .devicon-sass-original, .devicon-javascript-plain, .devicon-react-original, .devicon-git-plain{
+    font-size: 3.12rem;
+}
+@media (min-width: 970px){
+    .devicon-html5-plain, .devicon-css3-plain, .devicon-sass-original, .devicon-javascript-plain, .devicon-react-original, .devicon-git-plain{
+        font-size: 5.2rem;
+    }
+}
+.container__skills:hover .container__skills--cards{
     border-color: #ff2f9f;
 }
 
