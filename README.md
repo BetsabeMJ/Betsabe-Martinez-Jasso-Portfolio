@@ -1,4 +1,4 @@
-# Proyecto Portafolio
+# Proyecto Portfolio Betsabe Martínez
 
 Los archivos dentro de este repositorio dan vida al proyecto final del módulo 1 en el curso Desarrollo Front End de la organización [ADA ITW](https://adaitw.org/)
 El proyecto consiste en realizar un portfolio personal con las diferentes herramientas tecnológicas que son impartidas a lo largo del curso. Para este proyecto aplicamos los lenguajes **HTML5, CSS3 y GIT**
@@ -25,17 +25,12 @@ Para la paleta de colores utilicé fue tomada de la siguiente imagen:
 4. #35356e rgb(53,53,110)
 5. #110c3b rgb(17,12,59)
 
-Para la tipografía utilicé:
-**Poppins** para títulos y subtítulos.
-**Montserrat** para los textos en general.
+Para la tipografía utilicé: -**Poppins** para títulos y subtítulos. -**Montserrat** para los textos en general.
 
 ### Imágenes e íconos
 
 Las imágenes e íconos utilizados fueron modificados para que se adaptaran a la paleta de colores.
-Las fuentes son:
-[unDraw](https://undraw.co/illustrations)
-[Devicon](https://devicon.dev/)
-[Font Awesome](https://fontawesome.com/search?m=free&o=r)
+Las fuentes son: -[unDraw](https://undraw.co/illustrations) -[Devicon](https://devicon.dev/) -[Font Awesome](https://fontawesome.com/search?m=free&o=r)
 
 ### Muestra del proyecto
 
