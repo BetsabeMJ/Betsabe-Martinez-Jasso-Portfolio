@@ -282,17 +282,48 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     text-align: center;
     padding: 50px 12px;
 }
+@media (min-width: 970px){
+    .quote{
+        height: calc(100vh - 450px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+}
+
 .fa-quote-right{
-    font-size: 120px;
+    font-size: 7.5rem;
     color: #67254e;
 }
+
+@media (min-width: 970px){
+    .fa-quote-right{
+        font-size: 8.3  rem;
+    }
+}
+
+
 .quote__text{
     padding-block: 30px;
     color: #35356e;
 }
+@media (min-width: 970px){
+    .quote__text{
+        font-size: 1.4rem;
+    }
+}
+
 h3{
     padding-block: 30px;
     color: #35356e;
+}
+@media (min-width: 970px){
+    h3{
+        font-size: 1.4rem;
+    }
+    
 }
 
 
