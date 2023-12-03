@@ -38,6 +38,7 @@ a{
     justify-content: flex-end;
     align-items: center;
     position: fixed;
+    z-index: 1;
     box-shadow: 0px 4px 12px 0px rgba(53,53,110,0.73);
 }
 .nav__container--list{
@@ -57,6 +58,7 @@ a{
 }
 .list:hover .nav__contact--button{
     background-color: #67254e;
+    transition: 0.2s;
 }
 .list:hover .nav__home, .list:hover .nav__skills, .list:hover .nav__projects{
     color: #cc9ea4;
@@ -143,6 +145,10 @@ h1{
     font-weight: bold;
     line-height: 5rem;
 }
+.home__button--container:hover .home_button{
+    background-color: #424281;
+    transition: 0.2s;
+}
 /* *********************************************************************************** */
 /* SECTION 2 (SKILLS) */
 #skills{
@@ -225,7 +231,7 @@ h1{
         font-size: 5.2rem;
     }
 }
-.container__skills:hover .container__skills--cards{
+.container__skills:hover .html__card, .container__skills:hover .css__card, .container__skills:hover .sass__card, .container__skills:hover .js__card, .container__skills:hover .react__card, .container__skills:hover .git__card{
     border-color: #ff2f9f;
 }
 /* *********************************************************************************** */
@@ -461,15 +467,11 @@ figcaption{
 }
 @media (min-width: 970px){
     .name__last-name--container{
-        display: flex;
-        gap: 15px;
+        display: grid;
+        grid-auto-flow: column;
+        gap: 10px;
     }
 }
-/* @media (min-width: 970px){
-    .name__last-name--container:first-child, .name__last-name--container:nth-child(2){
-        padding-right: 20px;
-    }
-} */
 .form__tittle{
     margin-top: 30px;
     color: #35356e;
@@ -494,64 +496,51 @@ input:focus, textarea:focus{
     box-shadow: 0px 0px 10px 0px rgba(53,53,110,1);
     outline: 0;
 }
+/* --------------******************************----------------------------************************------- */
+ /* ------------------PRUEBA DE ÍCONOS VERDES Y ROJOS EN INPUTS----------------------- */
 /* ------------------------------- */
 /* íconos valid / invalid */
-/* .fa-circle-check{
-    position: relative;
-    left: 315px;
-    bottom: 30px;
+ .fa-regular{
+    display: none;
+    position: absolute;
+    transform: translateY(70%);
+    right: 35px;
 }
-input:valid, textarea:valid{
-    border:1px #88c459 solid;
+@media (min-width: 970px){
+    .fa-regular{
+        display: none;
+        position: absolute;
+        transform: translateY(70%);
+        right: 265px;
+    }
 }
-input:not(:placeholder-shown),
-textarea:not(:placeholder-shown) {
-    border:1px #88c459 solid;
-}
-/* .fa-circle-check-valid {
+.fa-circle-check{
     color: #88c459;
-} */
-/* .fa-circle-xmark{
-    position: relative;
-    left: 294px;
-    bottom: 30px;
 }
-input:invalid, textarea:invalid{
-    border:1px #f5414f solid;
-}
-input:not(:placeholder-shown),
-textarea:not(:placeholder-shown) {
-    border:1px #f5414f solid;
-}
-/* .fa-circle-xmark-invalid{
-    color: #f5414f;
-} */
-/* .fa-regular {
-    display: none;
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-} */
-/* ---------------------------------------------------------------------- */
-/*input:invalid:not(:placeholder-shown):focus,
-textarea:invalid:not(:placeholder-shown):focus{
-    box-shadow: 0px 0px 5px 0px rgba(255,38,38,1);
+input:valid:focus, textarea:valid:focus, .input_email:valid:focus, .fa-circle-check:valid:focus{
+    box-shadow: 0px 0px 5px 0px rgba(136,196,89,1);
 }
 input:valid, textarea:valid{
-    box-shadow: 0px 0px 5px 0px rgba(137,217,140,1);
-    outline: 0;
+	border: 1px #88c459 solid;
 }
-input:invalid, textarea:invalid{
-    box-shadow: 0px 0px 5px 0px rgba(255,38,38,1);
-    outline: 0;
+.fa-circle-xmark{
+    color: #f5414f;
 }
-.fa-regular{
-    display: none;
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    transform: translate(50%);
-}*/
+inpu:invalid:not(:placeholder-shown):focus, textarea:invalid:not(:placeholder-shown):focus, #input_email:invalid:not(:placeholder-shown):focus{
+    box-shadow: 0px 0px 5px 0px rgba(245,65,79,1);
+}
+inpu:invalid:not(:placeholder-shown), textarea:invalid:not(:placeholder-shown){
+    border: 1px #f5414f solid;
+}
+/* input:valid ~ .fa-circle-check,
+textarea:valid ~ .fa-circle-check,
+input:not(:placeholder-shown):invalid ~ .fa-circle-xmark,
+textarea:not(:placeholder-shown):invalid ~ .fa-circle-xmark {
+  display: block;
+} */
+
+ /* ------------------PRUEBA DE ÍCONOS VERDES Y ROJOS EN INPUTS----------------------- */
+/* --------------******************************----------------------------************************------- */
 .input__container{
     padding-bottom: 15px;
 }

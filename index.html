@@ -48,7 +48,9 @@
                 <span class="home__greeting">¡Hola! Soy</span>
                 <h1>Betsabe Martínez Jasso</h1>
                 <p class="home_text">Comunicóloga y desarrolladora web Frontend en proceso, entusiasta por los detalles</p>
-                <a class="home_button" tabindex="1" href="#projects">LO QUE HAGO</a>
+                <div class="home__button--container">
+                    <a class="home_button" tabindex="1" href="#projects">LO QUE HAGO</a>
+                </div>
             </div>
             <div class="home__image--container">
                 <figure>
@@ -65,27 +67,27 @@
             </div>
             <!-- caja que tiene las cajitas de html, css, etc -->
             <div class="container__skills">
-                <div tabindex="2" class="container__skills--cards">
+                <div tabindex="2" class="container__skills--cards html__card">
                     <i class="devicon-html5-plain colored"></i>
                     <span>HTML 5</span>
                 </div>
-                <div tabindex="3" class="container__skills--cards">
+                <div tabindex="3" class="container__skills--cards css__card">
                     <i class="devicon-css3-plain colored"></i>
                     <span>CSS 3</span>
                 </div>
-                <div tabindex="4" class="container__skills--cards">
+                <div tabindex="4" class="container__skills--cards sass__card">
                     <i class="devicon-sass-original colored"></i>
                     <span>Sass</span>
                 </div>
-                <div tabindex="5" class="container__skills--cards">
+                <div tabindex="5" class="container__skills--cards js__card">
                     <i class="devicon-javascript-plain colored"></i>
                     <span>JavaScript</span>
                 </div>
-                <div tabindex="6" class="container__skills--cards">
+                <div tabindex="6" class="container__skills--cards react__card">
                     <i class="devicon-react-original colored"></i>
                     <span>React</span>
                 </div>
-                <div tabindex="7" class="container__skills--cards">
+                <div tabindex="7" class="container__skills--cards git__card">
                     <i class="devicon-git-plain colored"></i>
                     <span>GIT</span>
                 </div>
@@ -220,8 +222,8 @@
                                 id="input_name"
                                 tabindex="18" 
                                 required>
-                                <!-- <i class="fa-regular fa-circle-check"></i>
-                                <i class="fa-regular fa-circle-xmark"></i> -->
+                                <i class="fa-regular fa-circle-check"></i>
+                                <i class="fa-regular fa-circle-xmark"></i>
                             </div>
                             <div class="input__container">
                                 <label for="input__last-name">Apellidos *</label>
@@ -232,8 +234,8 @@
                                 id="input__last-name"
                                 tabindex="19"
                                 required>
-                                <!-- <i class="fa-regular fa-circle-check"></i>
-                                <i class="fa-regular fa-circle-xmark"></i> -->
+                                <i class="fa-regular fa-circle-check"></i>
+                                <i class="fa-regular fa-circle-xmark"></i>
                             </div>
                         </div>
                         <div class="input__container">
@@ -244,8 +246,8 @@
                             id="input_email"
                             tabindex="20"
                             required>
-                            <!-- <i class="fa-regular fa-circle-check"></i>
-                            <i class="fa-regular fa-circle-xmark"></i> -->
+                            <i class="fa-regular fa-circle-check"></i>
+                            <i class="fa-regular fa-circle-xmark"></i>
                         </div>
                         <div class="input__container">
                             <label for="input_textarea">Mensaje *</label>
@@ -256,8 +258,8 @@
                             rows="8" 
                             tabindex="21"
                             required></textarea>
-                            <!-- <i class="fa-regular fa-circle-check"></i>
-                            <i class="fa-regular fa-circle-xmark"></i> -->
+                            <i class="fa-regular fa-circle-check"></i>
+                            <i class="fa-regular fa-circle-xmark"></i>
                         </div>
                         <input class="form__button" tabindex="22" type="submit" value="Enviar">
                     </form>
